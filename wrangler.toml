@@ -1,4 +1,11 @@
 name = "firstproxy"
 main = "./.output/server/index.mjs"
 workers_dev = true
-compatibility_date = "2022-09-10"
+compatibility_date = "2025-06-25"
+account_id = "beabab912803e722562ba2516f644343"
+
+[build]
+command = "npm install && npm run build"
+
+[site]
+bucket = ".output/public"
